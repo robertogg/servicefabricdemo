@@ -18,23 +18,6 @@ namespace Web.Service.Controllers
     {
         private const string CustomerOrderServiceName = "CustomerOrderActorService";
 
-        /// <summary>
-        /// POST api/orders
-        /// Based on a shopping cart passed into the method, PostCheckout creates an actor proxy object to activate an actor instance of CustomerOrderActor,
-        /// which is used to represent the state of the customer order. Through the actor proxy, the FulfillOrderAsync method is invoked on the actor
-        /// to fulfill the customer order by removing items from inventory.  
-        ///        
-        /// In the current version of this example, the shopping cart which a customer uses to check out exists
-        /// entirely on the client side. A shopping cart, in this example, is therefore stateless and its state is
-        /// only committed to memory when a customer order is created and an Actor Id is associated with it. 
-        /// 
-        /// Because the status of an order is changed inside the FulfillOrderAsync method, the OrdersController relies
-        /// on a separate GetStatus method that the client can call to see if the Status of the order has changed to completed. 
-        /// There is currently no event notification to the WebUI frontend if an order completes. 
-        /// 
-        /// </summary>
-        /// <param name="cart"></param>
-        /// <returns>Guid to identify the order and allow for status look-up later.</returns>
         [HttpPost]
         [Route("api/orders")]
         public async Task<Guid> PostCheckout(List<CustomerOrderItem> cart)
@@ -70,11 +53,6 @@ namespace Web.Service.Controllers
             return orderId;
         }
 
-        /// <summary>
-        /// Looks up a customer order based on its Guid identifier and by using an ActorProxy, retrieves the order's status and returns it to the client. 
-        /// </summary>
-        /// <param name="customerOrderId"></param>
-        /// <returns>String</returns>
         [HttpGet]
         [Route("api/orders/{customerOrderId}")]
         public Task<string> GetOrderStatus(Guid customerOrderId)

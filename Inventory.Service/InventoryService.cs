@@ -8,17 +8,13 @@ namespace Inventory.Service
     using System;
     using System.Collections.Generic;
     using System.Fabric;
-    using System.Fabric.Description;
-    using System.IO;
     using System.Threading;
     using System.Threading.Tasks;
     using Common;
     using Inventory.Domain;
     using Microsoft.ServiceFabric.Data;
     using Microsoft.ServiceFabric.Data.Collections;
-    using Microsoft.ServiceFabric.Services.Client;
     using Microsoft.ServiceFabric.Services.Communication.Runtime;
-    using Microsoft.ServiceFabric.Services.Remoting.Client;
     using Microsoft.ServiceFabric.Services.Remoting.Runtime;
     using Microsoft.ServiceFabric.Services.Runtime;
   
@@ -185,24 +181,6 @@ namespace Inventory.Service
         }
 
         /// <summary>
-        /// NOTE: This should not be used in published MVP code. 
-        /// This function allows us to remove inventory items from inventory.
-        /// </summary>
-        /// <param name="itemId"></param>
-        /// <returns></returns>
-        public async Task DeleteInventoryItemAsync(InventoryItemId itemId)
-        {
-            IReliableDictionary<InventoryItemId, InventoryItem> inventoryItems =
-                await this.StateManager.GetOrAddAsync<IReliableDictionary<InventoryItemId, InventoryItem>>(InventoryItemDictionaryName);
-
-            using (ITransaction tx = this.StateManager.CreateTransaction())
-            {
-                await inventoryItems.TryRemoveAsync(tx, itemId);
-                await tx.CommitAsync();
-            }
-        }
-
-        /// <summary>
         /// Creates a new communication listener
         /// </summary>
         /// <returns></returns>
@@ -244,11 +222,5 @@ namespace Inventory.Service
                 }
             }
         }
-        private enum BackupManagerType
-        {
-            Azure,
-            Local,
-            None
-        };
     }
 }

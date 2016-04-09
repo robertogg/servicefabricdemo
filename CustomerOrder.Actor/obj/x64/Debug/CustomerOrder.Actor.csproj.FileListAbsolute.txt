@@ -50,3 +50,29 @@ C:\Proyectos\Charlas\Azure Service Fabric\InventoryApp\ReferenceApp\CustomerOrde
 C:\Proyectos\Charlas\Azure Service Fabric\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Services.xml
 C:\Proyectos\Charlas\Azure Service Fabric\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\System.Fabric.xml
 C:\Proyectos\Charlas\Azure Service Fabric\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\en-us\Microsoft.ServiceFabric.Internal.Strings.resources.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\CustomerOrder.Actor.exe.config
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\CustomerOrder.Actor.exe
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\CustomerOrder.Actor.pdb
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Common.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\CustomerOrder.Domain.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Inventory.Domain.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Actors.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Data.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Internal.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Internal.Strings.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Services.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\System.Fabric.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\ServiceFabricServiceModel.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\CustomerOrder.Domain.pdb
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Common.pdb
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Inventory.Domain.pdb
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Actors.xml
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Data.xml
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.xml
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\Microsoft.ServiceFabric.Services.xml
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\System.Fabric.xml
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\bin\Debug\en-us\Microsoft.ServiceFabric.Internal.Strings.resources.dll
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\obj\x64\Debug\CustomerOrder.Actor.csprojResolveAssemblyReference.cache
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\obj\x64\Debug\CustomerOrder.Actor.exe
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\CustomerOrder.Actor\obj\x64\Debug\CustomerOrder.Actor.pdb

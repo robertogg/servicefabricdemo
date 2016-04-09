@@ -1,2 +1,3 @@
 C:\Proyectos\Charlas\Azure Service Fabric\service-fabric-dotnet-web-reference-app-master\ReferenceApp\WebReferenceApplication\obj\x64\Debug\WebReferenceApplication.sfprojResolveAssemblyReference.cache
 C:\Proyectos\Charlas\Azure Service Fabric\InventoryApp\ReferenceApp\WebReferenceApplication\obj\x64\Debug\WebReferenceApplication.sfprojResolveAssemblyReference.cache
+C:\Proyectos\Charlas\AzureBootCamp2016\InventoryApp\ReferenceApp\WebReferenceApplication\obj\x64\Debug\WebReferenceApplication.sfprojResolveAssemblyReference.cache
